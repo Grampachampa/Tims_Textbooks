@@ -8,9 +8,9 @@ folder_list = [x for x in file_list if "." not in x]
 readme = open(os.path.join(currentdir,'README.md'), 'w+')
 
 readme.write("# Tim's Textbooks\n")
-readme.write("## 📝 Here are my textbooks by class, updated whenever\n")
+readme.write("## Here are my textbooks by class, updated whenever\n")
 readme.write("If any questions, DM me on Discord (grampachampa) and I'll answer!\n")
-readme.write("## ✍🏻 Table of contents\n")
+readme.write("## Table of contents\n")
 
 for folder in folder_list:
     readme.write(f"### {folder}\n")
